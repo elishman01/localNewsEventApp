@@ -1,5 +1,3 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local News and Events</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#topNews">Top News</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#sports">Sports</a></li>
             </ul>
             <div class="search-icon">
                 <i class="fas fa-search"></i>
@@ -25,39 +24,17 @@
         </div>
     </header>
     <main>
-        <section id="newsContainer">
-            <h2>Latest News</h2>
-            <div class="news-cards">
-                <!-- News articles will be inserted here -->
-                <div class="news-card">
-                    <h3>News Article 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button class="read-more">Read More</button>
-                </div>
-                <!-- Add more news cards here -->
-            </div>
+        <section id="topNewsContainer">
+            <h2>Top News</h2>
+            <div class="news-cards"></div>
         </section>
-        <section id="eventsContainer">
-            <h2>Upcoming Events</h2>
-            <ul>
-                <!-- Event items will be inserted here -->
-                <li class="event-item">
-                    <h3>Event 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </li>
-                <!-- Add more event items here -->
-            </ul>
+        <section id="technologyContainer">
+            <h2>Technology</h2>
+            <div class="news-cards"></div>
         </section>
-        <section id="communityUpdates">
-            <h2>Community Updates</h2>
-            <div class="community-updates">
-                <!-- Community updates will be inserted here -->
-                <div class="community-update">
-                    <h3>Community Update 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <!-- Add more community updates here -->
-            </div>
+        <section id="sportsContainer">
+            <h2>Sports</h2>
+            <div class="news-cards"></div>
         </section>
     </main>
     <footer>
@@ -72,6 +49,5 @@
             <button>Subscribe</button>
         </form>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
