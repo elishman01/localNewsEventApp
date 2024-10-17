@@ -1,2 +1,2 @@
 # localNewsEventApp
-local news on the county
+local news in the county
